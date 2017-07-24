@@ -11,14 +11,14 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: '2017 China Outbound Tourism Report',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
+  summary: 'This is the latest survey of Chinese consumers on their outbound travel, where they went in the past year and where they wish going next' +
            'and murder respectable, and to give an appearance of solidity to pure wind',
 
   topic: {
-    name: 'Starter Kit',
+    name: 'FT Confidential Research',
     url: '/foo',
   },
 
@@ -39,8 +39,9 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Ben Heubl'  },
+    // url: '/foo/bar' },
+    { name: 'David Wilder' },
   ],
 
   // Appears in the HTML <title>

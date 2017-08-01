@@ -14,8 +14,8 @@ export default () => ({ // eslint-disable-line
   headline: '2017 China Outbound Tourism Report',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'This is the latest survey of Chinese consumers on their outbound travel, where they went in the past year and where they wish going next' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'This interactive tool allows you to analyse the travel habits of Chinese tourists, drawing on the dataset of our latest annual survey. Using the drop-down lists below, compare and contrast where tourists went, how much they spent and on what, based on factors such as income, occupation and city of residence.' +
+           '',
 
   topic: {
     name: 'FT Confidential Research',
@@ -23,8 +23,8 @@ export default () => ({ // eslint-disable-line
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    text: 'Related articles »',
+    url: 'https://ft.com',
   },
 
   mainImage: {
@@ -39,9 +39,9 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Ben Heubl'  },
+    { name: 'FTCR'  }
     // url: '/foo/bar' },
-    { name: 'David Wilder' },
+    // { name: 'David Wilder' },
   ],
 
   // Appears in the HTML <title>

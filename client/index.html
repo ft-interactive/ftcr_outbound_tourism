@@ -14,7 +14,6 @@
 		.fl-arrow.disabled, .fl-arrow.disabled:hover { opacity: 0.2; cursor: default; }
 	</style>
   <h2 id="fl-head"></h2>
-  <p id="demo"></p>
   <p id="fl-text"></p>
 	<div id="fl-controls">
 		<div class="fl-arrows">
@@ -90,14 +89,7 @@
     document.getElementById("fl-text").innerHTML = SLIDE_TEXT[slide];
     document.getElementById("fl-head").innerHTML = SLIDE_TITLE[slide];
     });
-    function myFunction() {
-    document.getElementById("fl-head").innerHTML = "You scrolled in div";
-    }
 	</script>
 </div>
-
-
-
-
 {% endmarkdown %}
 {% endblock %}

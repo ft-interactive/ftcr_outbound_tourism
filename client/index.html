@@ -6,18 +6,19 @@
 {% markdown %}
 <div id="flourish-story-wrapper" onscroll="myFunction()">
 	<style>
+    /*.fl-controls {margin-left: 300px}*/
     .fl-head {font-size: 20}
 		.fl-arrows { float: right; }
 		.fl-arrow { display: inline-block; font-size: 4em; font-weight: bold; margin-left: 0.25em; cursor: pointer; user-select: none; }
-		.fl-arrow:hover { opacity: 0.6; }
+		.fl-arrow:hover { opacity: 0.5; }
 		.fl-arrow.disabled, .fl-arrow.disabled:hover { opacity: 0.2; cursor: default; }
 	</style>
   <h2 id="fl-head"></h2>
   <p id="fl-text"></p>
 	<div id="fl-controls">
 		<div class="fl-arrows">
-			<div id="fl-back" class="disabled fl-arrow"></div>
-			<div id="fl-next" class="fl-arrow"></div>
+			<div id="fl-back" class="disabled fl-arrow"><</div>
+			<div id="fl-next" class="fl-arrow">></div>
 		</div>
 	</div>
 	<script src="https://public.flourish.studio/resources/embed.js" data-src="story/338"></script>
@@ -27,16 +28,28 @@
 			"We asked outbound tourists from across China where they went on holiday last, what they spent when they got there, what they spent their money on and where they plan to go next.",
 			"South Korea was among the top destinations but its popularity fell sharply from 2016 amid growing political tensions between Seoul and Beijing.",
 			"Our 2017 data shows Chinese intend to holiday overseas more often as the cost of travel falls.",
+			// "Total spending was down this year compared to data from 2016 (chart in blue).",
+			// "Shopping was again the biggest component of travel spending, but tourists spent less than in 2016. Cosmetics was the only category in which spending rose in 2017.",
+			// "Instead, Chinese tourists increased their spending on the experience of travel, such on eating out. On average, tourists spent most on food when in France.",
+			// "They spent more on nicer hotels, although private apartment shares offered by companies like Airbnb were also popular with high-income travellers.",
+			// "And spent a bigger proportion of their money on entertainment. For today’s Chinese tourist, memories count more than shopping sprees.",
 			"The UK replaced South Korea as the third most popular destination for the next overseas trip by Chinese tourists.",
 			"Europe – and France specifically – remains the dream destination for Chinese tourists.",
+			// "In our previous 2016 survey, fewer respondents said their dream destination was in the US and in Asia compared with results from 2017.",
 			"Explore the data yourself. Select a group, then compare by different categories, and optionally shade by a second category to see further breakdowns."
 		];
     var SLIDE_TITLE = [
       "We asked 1,318 Chinese tourists ...",
       "Most recent destination",
       "Average total spending on most recent trip in 2017",
+      // "Average total spending on most recent trip in 2016",
+      // "Spending on shopping",
+      // "Spending on food",
+      // "Spending on accommodation",
+      // "Spending on entertainment",
       "Planned destinations",
       "Dream destinations",
+      // "Dream destinations (2016)",
       "Explore the data"
     ];
     var slide = 0;
@@ -71,6 +84,8 @@
 		});
     document.addEventListener("DOMContentLoaded", function(){
     console.log(slide)
+    // document.getElementById("fl-text"),
+    // goToSlide(0);
     document.getElementById("fl-text").innerHTML = SLIDE_TEXT[slide];
     document.getElementById("fl-head").innerHTML = SLIDE_TITLE[slide];
     });

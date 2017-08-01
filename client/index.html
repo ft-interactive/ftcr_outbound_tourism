@@ -6,19 +6,20 @@
 {% markdown %}
 <div id="flourish-story-wrapper" onscroll="myFunction()">
 	<style>
-    .fl-controls {margin-left: 300px}
+    /*.fl-controls {margin-left: 300px}*/
     .fl-head {font-size: 20}
 		.fl-arrows { float: right; }
-		.fl-arrow { display: inline-block; font-size: 4em; font-weight: bold; margin-left: 0.25em; cursor: pointer; user-select: none; }
+		.fl-arrow { display: inline-block; font-size: 2em; font-weight: bold; margin-left: 0.25em; cursor: pointer; user-select: none; }
 		.fl-arrow:hover { opacity: 0.5; }
 		.fl-arrow.disabled, .fl-arrow.disabled:hover { opacity: 0.2; cursor: default; }
 	</style>
   <h2 id="fl-head"></h2>
+  <p id="demo"></p>
   <p id="fl-text"></p>
 	<div id="fl-controls">
 		<div class="fl-arrows">
-			<div id="fl-back" class="disabled fl-arrow"><</div>
-			<div id="fl-next" class="fl-arrow">></div>
+			<div id="fl-back" class="disabled fl-arrow">Back</div>
+			<div id="fl-next" class="fl-arrow">Next</div>
 		</div>
 	</div>
 	<script src="https://public.flourish.studio/resources/embed.js" data-src="story/338"></script>

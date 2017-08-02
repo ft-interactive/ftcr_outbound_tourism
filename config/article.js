@@ -11,7 +11,7 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: '2017 China Outbound Tourism Report',
+  headline: 'Exploring the travel habits of Chinese tourists',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'This interactive tool allows you to analyse the travel habits of Chinese tourists, drawing on the dataset of our latest annual survey. Using the drop-down lists below, compare and contrast where tourists went, how much they spent and on what, based on factors such as income, occupation and city of residence.' +

@@ -4,7 +4,7 @@ export default () => ({ // eslint-disable-line
   id: '16003b4a-714b-11e7-aca6-c6bd07df1a3c',
 
   // canonical URL of the published page
-  // https://ig.ft.com/starterkitjune get filled in by the ./configure script
+  // https://ig.ft.com/ftcr_outbound_tourism get filled in by the ./configure script
   url: 'http://ig.ft.com/ftcr/chinese-outbound-tourism',
 
   // To set an exact publish date do this:
@@ -63,7 +63,7 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  // socialImage: '',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Add22cc72-776a-11e7-90c0-90a9d1bc9691?source=ig&width=700',
   // socialHeadline: '',
   // socialDescription: '',
   // twitterCreator: '@author's_account', // shows up in summary_large_image cards
@@ -81,7 +81,7 @@ export default () => ({ // eslint-disable-line
   // twitterDescription: '',
 
   // FACEBOOK
-  // facebookImage: '',
+  facebookImage: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
   // facebookHeadline: '',
   // facebookDescription: '',
 

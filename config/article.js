@@ -5,7 +5,7 @@ export default () => ({ // eslint-disable-line
 
   // canonical URL of the published page
   // https://ig.ft.com/starterkitjune get filled in by the ./configure script
-  url: 'https://ig.ft.com/starterkitjune',
+  url: 'http://ig.ft.com/ftcr/chinese-outbound-tourism',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
@@ -14,24 +14,23 @@ export default () => ({ // eslint-disable-line
   headline: 'Exploring the travel habits of Chinese tourists',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'This interactive tool allows you to analyse the travel habits of Chinese tourists, drawing on the dataset of our latest annual survey. Using the drop-down lists below, compare and contrast where tourists went, how much they spent and on what, based on factors such as income, occupation and city of residence.' +
-           '',
+  summary: 'This interactive tool allows you to analyse the travel habits of Chinese tourists, drawing on the dataset of our latest annual survey. Using the drop-down lists below, compare and contrast where tourists went, how much they spent and on what, based on factors such as income, occupation and city of residence.',
 
   topic: {
     name: 'FT Confidential Research',
-    url: '/foo',
+    url: 'https://www.ft.com/ft-confidential-research',
   },
 
   relatedArticle: {
     text: 'Related articles »',
-    url: 'https://ft.com',
+    url: 'https://www.ft.com/ft-confidential-research',
   },
 
   mainImage: {
     title: '',
     description: '',
     credit: '',
-    url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
+    url: '',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -39,16 +38,16 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'FTCR'  }
+    { name: 'FTCR', url: 'https://www.ft.com/ft-confidential-research' },
     // url: '/foo/bar' },
     // { name: 'David Wilder' },
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'Exploring the travel habits of Chinese tourists',
 
   // meta data
-  description: '',
+  description: 'This interactive tool allows you to analyse the travel habits of Chinese tourists, drawing on the dataset of our latest annual survey',
 
   /*
   TODO: Select Twitter card type -

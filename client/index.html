@@ -6,13 +6,18 @@
 {% markdown %}
 <div id="flourish-story-wrapper" onscroll="myFunction()">
 	<style>
-    /*.fl-controls {margin-left: 300px}*/
-    .fl-head {font-size: 20}
-		.fl-arrows { float: right; }
-		.fl-arrow { display: inline-block; font-size: 2em; font-weight: bold; margin-left: 0.25em; cursor: pointer; user-select: none; }
-		.fl-arrow:hover { opacity: 0.5; }
-		.fl-arrow.disabled, .fl-arrow.disabled:hover { opacity: 0.2; cursor: default; }
-	</style>
+	/*.fl-controls {margin-left: 300px}*/
+	.fl-head {font-size: 20}
+	.fl-arrows { float: right; }
+	.fl-arrow { display: inline-block; font-size: 2em; font-weight: bold; margin-left: 0.25em; cursor: pointer; user-select: none; }
+	.fl-arrow:hover { opacity: 0.5; }
+	.fl-arrow.disabled, .fl-arrow.disabled:hover { opacity: 0.2; cursor: default; }
+
+  @media (hover: none) {
+      .fl-arrow:hover { opacity: 1; }
+      fl-arrow.disabled { opacity: 0.2; }
+  }
+  </style>
   <h2 id="fl-head"></h2>
   <p id="demo"></p>
   <p id="fl-text"></p>
@@ -22,7 +27,7 @@
 			<div id="fl-next" class="fl-arrow">Next</div>
 		</div>
 	</div>
-	<script src="https://public.flourish.studio/resources/embed.js" data-src="story/338"></script>
+	<script src="//public.flourish.studio/resources/embed.js" data-src="story/338"></script>
 	<script>
 		var NUMBER_OF_SLIDES = 6;
 		var SLIDE_TEXT = [
@@ -76,12 +81,12 @@
 		back.addEventListener("click", function() {
 			if (slide > 0) slide--;
 			goToSlide(slide);
-      console.log(slide)
+      // console.log(slide)
 		});
 		next.addEventListener("click", function() {
 			if (slide < NUMBER_OF_SLIDES - 1) slide++;
 			goToSlide(slide);
-      console.log(slide)
+      // console.log(slide)
 		});
     document.addEventListener("DOMContentLoaded", function(){
     console.log(slide)
@@ -93,7 +98,7 @@
 	</script>
 </div>
 </p><span itemprop="name">Graphics by <a href="https://twitter.com/search?q=benheubl&src=typd">@BenHeubl</a></p>
-<p><i><a href="https://swing.ft.com/api/rest/Page/Id/325.0.3565510194">FT Confidential Research</a> is an independent research service from the Financial Times,
+<p><i><a href="https://www.ft.com/ft-confidential-research">FT Confidential Research</a> is an independent research service from the Financial Times,
 	providing in-depth analysis of and statistical insight into China and Southeast Asia.
 	Our team of researchers in these key markets combine findings from our proprietary
 	surveys with on-the-ground research to provide predictive analysis for investors.

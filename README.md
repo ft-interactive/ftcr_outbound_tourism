@@ -1,6 +1,6 @@
-# [starterkitjune](https://ig.ft.com/starterkitjune)
+# [Exploring the travel habits of Chinese tourists](ig.ft.com/ftcr/chinese-outbound-tourism/)
 
-> d3 project for FT Confidential Research
+FT Confidential Research project.
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][devdeps-image]][devdeps-url]
 

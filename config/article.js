@@ -63,7 +63,7 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  // socialImage: '',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Add22cc72-776a-11e7-90c0-90a9d1bc9691?source=ig&width=700',
   // socialHeadline: '',
   // socialDescription: '',
   // twitterCreator: '@author's_account', // shows up in summary_large_image cards

@@ -4,7 +4,7 @@ export default () => ({ // eslint-disable-line
   id: '16003b4a-714b-11e7-aca6-c6bd07df1a3c',
 
   // canonical URL of the published page
-  // https://ig.ft.com/starterkitjune get filled in by the ./configure script
+  // https://ig.ft.com/ftcr_outbound_tourism get filled in by the ./configure script
   url: 'http://ig.ft.com/ftcr/chinese-outbound-tourism',
 
   // To set an exact publish date do this:

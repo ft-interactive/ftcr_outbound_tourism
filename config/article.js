@@ -1,7 +1,7 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '',
+  id: '16003b4a-714b-11e7-aca6-c6bd07df1a3c',
 
   // canonical URL of the published page
   // https://ig.ft.com/starterkitjune get filled in by the ./configure script
